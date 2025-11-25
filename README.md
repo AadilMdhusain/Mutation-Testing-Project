@@ -20,10 +20,12 @@ Integrated via the Pitest Maven Plugin to measure the effectiveness of the test 
 <H3>Schema of the Project</H3>
 The Schema of the project goes as follows:
 
-Restaurant Service DB-
+Restaurant Service DB-  
+
 <img src="Restaurant_DB.jpeg" alt="Schema" width="600" height="auto">
 
-Order Service DB
+Order Service DB-  
+
 <img src="Order_DB.jpeg" alt="Schema" width="600" height="auto">
 
 <H3>Types of Mutators Used:</H3>
