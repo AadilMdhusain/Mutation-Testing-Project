@@ -80,7 +80,9 @@ MATH
 
 INLINE_CONSTS
 
-<H3>The Results of the Mutation Testing are as follows:</H3>
+<H3>The Results of the Mutation Testing are as follows:</H3>  
+
+<H3>Mutation Score : 0.93</H3>
 
 Overall Test Report:
 
