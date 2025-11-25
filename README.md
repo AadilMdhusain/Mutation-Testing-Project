@@ -88,10 +88,18 @@ Overall Test Report:
 
 <img src="OverallTestReport.png" alt="Overall Test Report" width="600" height="auto">
 
-Unit Testing:
+Unit Testing: We tested individual service of our backend as individual units, focusing on their working as independent program.  
 
 <img src="UnitTestingReport.png" alt="Unit Testing" width="600" height="auto">
 
-Integration Testing:
+Integration Testing: We tested the integration between Different components of teh backend, testing their interaction with each other.  
 
 <img src="IntegrationTestingReport.png" alt="Integration Testing" width="600" height="auto">
+
+<H3>Contribution:</H3>
+
+Aadil Mohammad Husain (MT2024001):  
+Responsible for developing the complete testing framework for the project. He designed, implemented, and executed all unit tests and integration tests across the application, ensuring that the system was thoroughly validated. His work included writing JUnit-based test cases for service logic, controller endpoints, and data validation workflows, as well as configuring and running mutation testing to measure test quality.
+
+Mohammed Mubashir Khan (MT2024089):  
+Led the backend development of the application. He designed and implemented the system architecture, including the database schema, controller layer, service layer, and business logic. His responsibilities involved creating REST APIs, managing data flow between layers, integrating MySQL, and ensuring the backend functionality met project requirements. He also handled core features such as order processing, validation rules, and backend logic essential for the application's overall operation.
