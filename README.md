@@ -1,6 +1,6 @@
 <H1> Booking System - A Software Testing Project</H1>
 
-We have implemented mutation testing using PIT (Pitest) to evaluate and strengthen the test quality of our Restaurant Booking System backend.
+We have implemented mutation testing using PIT (Pitest) to evaluate and strengthen the test quality of our Booking System backend.
 The aim of this implementation is to go beyond traditional code coverage and ensure that our unit tests are capable of detecting real faults in the booking logic.
 
 While normal coverage metrics only indicate how much of the code is executed during tests, mutation testing measures how effective those tests truly are. PIT achieves this by automatically injecting small changes—called mutations—into the source code and observing whether the existing test suite detects these changes.
@@ -10,19 +10,23 @@ Beyond validating individual units, our objective was to extend mutation testing
 
 The entire code base of the project is available [here](https://github.com/AadilMdhusain/Mutation-Testing-Project).
 
-<H5>Testing Tools:</H5>
+<H3>Testing Tools:</H3>
 JUnit 5
 Used for writing comprehensive Unit and Integration Tests across all backend services. JUnit 5 (brought in through the Spring Boot 3.2.5 starter) enables parameterized testing, structured test suites, and modern assertion APIs—ensuring maintainable, expressive, and well-organized test cases.
 
 PIT Mutation Testing (Pitest 1.17.1)
 Integrated via the Pitest Maven Plugin to measure the effectiveness of the test suite rather than just execution coverage. PIT automatically introduces code mutations, evaluates whether the tests can detect them, and generates detailed HTML reports. This provides deeper insights into untested logic paths, weak assertions, and potential blind spots in the booking service.
 
-<H5>Schema of the Project</H5>
+<H3>Schema of the Project</H3>
 The Schema of the project goes as follows:
 
-<img src="Schema.png" alt="Schema" width="600" height="auto">
+Restaurant Service DB-
+<img src="Restaurant_DB.jpeg" alt="Schema" width="600" height="auto">
 
-<H5>Types of Mutators Used:</H5>
+Order Service DB
+<img src="Order_DB.jpeg" alt="Schema" width="600" height="auto">
+
+<H3>Types of Mutators Used:</H3>
 
 The following PIT mutation operators were enabled to thoroughly test conditionals, method behavior, return values, arithmetic operations, and constants within the Booking System:
 
